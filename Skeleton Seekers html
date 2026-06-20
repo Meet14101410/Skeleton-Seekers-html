@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Skeleton Seekers</h1>
+<p>Find the hidden bone!</p>
+
+<button onclick="score++; s.innerText=score">
+  Find Bone
+</button>
+
+<h3>Score: <span id="s">0</span></h3>
+
+<script>
+let score = 0;
+let s = document.getElementById("s");
+</script>
+</body>
+</html>
